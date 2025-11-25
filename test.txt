@@ -1,5 +1,10 @@
 <html>
 <head>
+
+
+
+
+
 <title>Continental Hotel Reservation Form</title>
 <style>
 body {
