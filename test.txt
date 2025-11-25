@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>Continental Hotel Reservation Form</title>
+<style>
+body {
+  font-family: Arial;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.radio-group, .checkbox-group {
+  margin: 10px 0;
+}
+.radio-option, .checkbox-option {
+  margin: 5px 0;
+}
+button {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h2>Continental Hotel Reservation Form</h2>
+
+<div class="form-group">
+  <label>Name</label>
+  <input type="text" placeholder="Enter your name">
+</div>
+
+<div class="form-group">
+  <label>eMail</label>
+  <input type="email" value="info@continental.pk">
+</div>
+
+<div class="form-group">
+  <label>Mobile No</label>
+  <input type="tel" placeholder="Enter your cell number">
+</div>
+
+<div class="form-group">
+  <label>Arrival Time</label>
+  <input type="datetime-local" placeholder="Enter your arrival time">
+</div>
+
+<div class="form-group">
+  <label>Departure</label>
+  <input type="datetime-local">
+</div>
+
+<div class="radio-group">
+  <label>Room Type</label>
+  <div class="radio-option">
+    <input type="radio" name="room"> Single
+  </div>
+  <div class="radio-option">
+    <input type="radio" name="room"> Double
+  </div>
+  <div class="radio-option">
+    <input type="radio" name="room"> Presidential Suite
+  </div>
+</div>
+
+<div class="checkbox-group">
+  <label>Preferences</label>
+  <div class="checkbox-option">
+    <input type="checkbox"> Non-Smoking
+  </div>
+  <div class="checkbox-option">
+    <input type="checkbox"> Internet
+  </div>
+  <div class="checkbox-option">
+    <input type="checkbox"> Firm Mattress
+  </div>
+</div>
+
+<div class="checkbox-group">
+  <label>Mode of Payment</label>
+  <div class="checkbox-option">
+    <input type="checkbox"> Cash
+  </div>
+  <div class="checkbox-option">
+    <input type="checkbox"> Check
+  </div>
+  <div class="checkbox-option">
+    <input type="checkbox"> Credit Card 
+    <select>
+      <option>Select Card</option>
+    </select>
+  </div>
+</div>
+
+<button>Send Data</button>
+
+</body>
+</html>
